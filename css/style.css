@@ -29,7 +29,7 @@
   17.Home Page 3  CSS
   18.Blog CSS
   17.Blog Details CSS
-
+  20.writeAndErase CSS   --> 글자 썼다가 지웠다가 하는 css
 -----------------------------------------------------------------------------------*/
 
 /*----------------------------------------*/
@@ -609,7 +609,7 @@ div#preloader {
 
 .faq-details a span.acc-icons::before {
   color: #333;
-  content: "";
+  content: "�꼨";
   font-family: fontawesome;
   font-size: 24px;
   height: 40px;
@@ -626,7 +626,7 @@ div#preloader {
 }
 
 .faq-details a.active span.acc-icons::before {
-  content: "";
+  content: "�꼪";
   font-family: fontawesome;
   font-size: 24px;
   height: 40px;
@@ -2347,6 +2347,17 @@ span.email-notes {
   margin: 0;
   padding-top: 30px;
 }
+
+/*--------------------------------
+	20.writeAndErase CSS   
+	글자 썼다가 지웠다가 하는 css
+--------------------------------*/
+
+.writeAndErase {
+	color: white !important;
+	font-size: 40px !important;
+}
+
 
 /*----------------------------------------
  .End CSS
