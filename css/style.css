@@ -29,7 +29,7 @@
   17.Home Page 3  CSS
   18.Blog CSS
   17.Blog Details CSS
-
+  20.writeAndErase CSS   --> 글자 썼다가 지웠다가 하는 css
 -----------------------------------------------------------------------------------*/
 
 /*----------------------------------------*/
@@ -2346,6 +2346,16 @@ span.email-notes {
   border-top: 1px solid #e5e5e5;
   margin: 0;
   padding-top: 30px;
+}
+
+/*--------------------------------
+	20.writeAndErase CSS   
+	글자 썼다가 지웠다가 하는 css
+--------------------------------*/
+
+.writeAndErase {
+	color: white !important;
+	font-size: 40px !important;
 }
 
 /*----------------------------------------
