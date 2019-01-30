@@ -1,60 +1,1308 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
-    <head>
-            <script
-            src="http://code.jquery.com/jquery-3.3.1.js"
-            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-            crossorigin="anonymous"></script>
 
-        <!-- 합쳐지고 최소화된 최신 CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<head>
+  <meta charset="utf-8">
+  <title>멋쟁이 사자처럼 at 한국교통대학교 :: HACK YOUR LIFE</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
 
-        <!-- 부가적인 테마 -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
 
-        <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700|Raleway:300,400,400i,500,500i,700,800,900"
+    rel="stylesheet">
 
-        <meta charset="utf-8">
-        <title>멋쟁이 사자처럼 at 한국교통대학교</title>
-    </head>
-    <body>
-        <div class="container">
-            <div class="jumbotron">
-                <h2><strong>멋쟁이 사자처럼 at 한국교통대학교</strong></h2><br>
-                <div id="introduction">
-                    <h3>Hello World!</h3>
-                    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the Atlas bear and the Himalayan brown bear.</p>
-                    <h3>7기 운영진 멤버 구성</h3><br>
-                    <ul>
-                      <li>명평윤</li>
-                      <li>조경록</li>
-                      <li>임현석</li>
-                      <li>박상돈</li>
-                      <li>박주완</li>
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/nivo-slider/css/nivo-slider.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.carousel.css" rel="stylesheet">
+  <link href="lib/owlcarousel/owl.transitions.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/venobox/venobox.css" rel="stylesheet">
+
+  <!-- Nivo Slider Theme -->
+  <link href="css/nivo-slider-theme.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive Stylesheet File -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- ColorTab -->
+  <meta name="theme-color" content="#FF9E1B">
+  <!-- <link rel="stylesheet" type="text/css" href="css/demo.css" />
+  <link rel="stylesheet" type="text/css" href="css/backgroundTransition.css" /> -->
+
+  <!-- =======================================================
+    Theme Name: eBusiness
+    Theme URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+</head>
+
+<body data-spy="scroll" data-target="#navbar-example">
+
+  <div id="preloader"></div>
+
+  <header>
+    <!-- header-area start -->
+    <div id="sticker" class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <!-- Navigation -->
+            <nav class="navbar navbar-default">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".bs-example-navbar-collapse-1"
+                  aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <!-- Brand -->
+                <a class="navbar-brand page-scroll sticky-logo" href="index.html">
+                  <h1>KNUT <span>X</span> LIKELION</h1>
+                  <!-- Uncomment below if you prefer to use an image logo -->
+                  <!-- <img src="img/logo.png" alt="" title=""> -->
+                </a>
+              </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse main-menu bs-example-navbar-collapse-1" id="navbar-example">
+                <ul class="nav navbar-nav navbar-right">
+                  <li class="active">
+                    <a class="page-scroll" href="#home">HOME</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#about">프로그램 소개</a>
+                  </li>
+
+                  <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">바로가기<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="https://facebook.com/likelionKNUT" target="_blank">FACEBOOK PAGE</a></li>
+                      <li><a href="https://opentutorials.org/course/3663" target="_blank">Opentutorials</a></li>
+                      <li><a href="https://github.com/likelionknut/likelion-knut/wiki/멋쟁이사자처럼-at-한국교통대학교-회칙" target="_blank">운영회칙</a></li>
                     </ul>
-                    <h3>Features</h3>
-                    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
-                  </div>
-                  <div id="habitat">
-                    <h2>Habitat</h2>
-                    <h3>Countries with Large Brown Bear Populations</h3>
-                    <ol>
-                      <li>Russia</li>
-                      <li>United States</li>
-                      <li>Canada</li>
-                    </ol>
-                    <h3>Countries with Small Brown Bear Populations</h3>
-                    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
-                  </div>
-                  <div id="media">
-                    <h2>Media</h2><br>
-                    <img src="racoon.jpg" alt="A Brown Bear"/><br><br><br>
-                    <video src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" width="320" height="240" controls>
-                      Video not supported
-                    </video>
+                  </li>
+
+                  <li>
+                    <a class="page-scroll" href="#services">교육과정</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#faq">FAQ</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#team">운영진</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#portfolio">포트폴리오</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#news">새 소식</a>
+                  </li>
+                  <li>
+                    <a class="page-scroll" href="#contact">연락처</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- navbar-collapse -->
+            </nav>
+            <!-- END: Navigation -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- header-area end -->
+  </header>
+  <!-- header end -->
+
+  <!-- Start Slider Area -->
+  <div id="home" class="slider-area">
+    <div class="bend niceties preview-2">
+      <div id="ensign-nivoslider" class="slides">
+        <img src="img/slider/slider1.jpg" alt="" title="#slider-direction-1" />
+        <img src="img/slider/slider2.jpg" alt="" title="#slider-direction-2" />
+        <img src="img/slider/slider3.jpg" alt="" title="#slider-direction-3" />
+      </div>
+
+      <!-- direction 1 -->
+      <div id="slider-direction-1" class="slider-direction slider-one">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">HACK YOUR LIFE</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">멋쟁이 사자처럼 at 한국교통대학교</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#botttom-banner">7기 수강 신청</a>
+                  <!-- <a type="button" class="ready-btn right-btn page-scroll" data-toggle="modal" data-target="#main-button-0">7기 수강 신청</a>-->
+                  <a class="ready-btn page-scroll" href="#news">주요 일정</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 2 -->
+      <div id="slider-direction-2" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content text-center">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">내 아이디어를 내 손으로 직접 실현한다!</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInUp" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">온라인 강의와 오프라인 활동을 통한 체계적인 프로그래밍 교육</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInUp" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#botttom-banner">7기 수강 신청</a>
+                  <a class="ready-btn page-scroll" href="#news">주요 일정</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- direction 3 -->
+      <div id="slider-direction-3" class="slider-direction slider-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+              <div class="slider-content">
+                <!-- layer 1 -->
+                <div class="layer-1-1 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <h2 class="title1">HACK YOUR LIFE</h2>
+                </div>
+                <!-- layer 2 -->
+                <div class="layer-1-2 wow slideInDown" data-wow-duration="2s" data-wow-delay=".1s">
+                  <h1 class="title2">현재까지 130 개 학교에서 1,916 명의 학생들이 579 개의 서비스를 만들었습니다</h1>
+                </div>
+                <!-- layer 3 -->
+                <div class="layer-1-3 hidden-xs wow slideInDown" data-wow-duration="2s" data-wow-delay=".2s">
+                  <a class="ready-btn right-btn page-scroll" href="#botttom-banner">7기 수강 신청</a>
+                  <a class="ready-btn page-scroll" href="#news">주요 일정</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Slider Area -->
+
+  <!-- Start About area -->
+  <div id="about" class="about-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>멋쟁이 사자처럼이 무엇인가요?</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- single-well start-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-left">
+            <div class="single-well">
+              <a href="https://likelion.net" target="_blank">
+                <img src="img/about/basiclogo_KE_symbol.png" alt="">
+              </a>
+            </div>
+          </div>
+        </div>
+        <!-- single-well end-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="well-middle">
+            <div class="single-well">
+              <p>
+                "<a href="https://likelion.org">멋쟁이 사자처럼</a>"은 비전공자를 대상으로 프로그래밍을 가르치는 대학 연합 교육 단체입니다.<br>
+              </p>
+              <h4 class="sec-head">멋쟁이 사자처럼의 목표</h4>
+              <p>
+                컴퓨터를 모르는 학생들이 프로그래밍 교육을 통해 원하는 IT 서비스를 직접 런칭합니다.
+                <br>
+                자체 개발된 온라인 강의 플랫폼 '클래스라이언'을 통해 강의를 듣고 과제를 수행합니다. 다양한 오프라인 활동과 병행하여 뜻을 같이하는 동료를 찾고 자신이 만들고자 하는 서비스를 직접
+                프로그래밍 하도록 돕습니다.
+              </p>
+              <ul>
+                <li>
+                  <i class="fa fa-check"></i> 최신 기술 스택 활용
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> 해커톤을 통한 아이디어 개발/서비스 구현
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> 자체제작 플랫폼을 통한 개별 학생 관리
+                </li>
+                <li>
+                  <i class="fa fa-check"></i> 학교/팀별 오프라인 교육/스터디 및 세미나
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- End col-->
+      </div>
+    </div>
+  </div>
+  <!-- End About area -->
+
+  <!-- Start Service area -->
+  <div id="services" class="services-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline services-head text-center">
+            <h2>우리가 배우는 것들</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="services-contents">
+          <!-- Start Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+                    <i class="fa fa-html5"></i>
+                  </a>
+                  <h4>HTML5/CSS3</h4>
+                  <p>
+                    HTML은 웹을 이루는 가장 기초적인 구성 요소입니다. 웹페이지의 내용을 서술하고 정의하는 데 사용합니다. CSS는 웹 페이지의 모양과 표현을 서술합니다. - MDN
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+                    <i class="fa fa-code"></i>
+                  </a>
+                  <h4>Python</h4>
+                  <p>
+                    Python은 가장 배우기 쉬운 프로그래밍 언어 중 하나입니다. 우리는 이 언어를 통해 사용자의 요청에 동적으로 응답할 것입니다.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+                    <i class="fa fa-git-square"></i>
+                  </a>
+                  <h4>Git</h4>
+                  <p>
+                    Git은 가장 많이 쓰이고 있는 버전 관리 도구(Version Control System)입니다. Git을 통한 파일 관리와 백업의 혁신에 대해 배웁니다.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+                    <i class="fa fa-book"></i>
+                  </a>
+                  <h4>Django</h4>
+                  <p>
+                    Django는 웹 개발 업무를 빠르고 쉽게 진행하도록 설계되었습니다. 웹 프레임워크를 통해 웹 사이트를 체계적이고 깔끔하게 관리할 수 있습니다.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+                    <i class="fa fa-superscript"></i>
+                  </a>
+                  <h4>JavaScript (예정)</h4>
+                  <p>
+                    JavaScript는 웹브라우저에 내장된 프로그래밍 언어입니다.
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+          <!-- End Left services -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <!-- end col-md-4 -->
+            <div class=" about-move">
+              <div class="services-details">
+                <div class="single-services">
+                  <a class="services-icon">
+                    <i class="fa fa-server"></i>
+                  </a>
+                  <h4>AWS (미정)</h4>
+                  <p>
+                    Amazon Web Services로 자신만의 서버를 구축할 수 있어요!
+                  </p>
+                </div>
+              </div>
+              <!-- end about-details -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Service area -->
+
+  <!-- our-skill-area start -->
+  <div class="our-skill-area fix hidden-sm">
+    <div class="test-overly"></div>
+    <div class="skill-bg area-padding-2">
+      <div class="container">
+        <!-- section-heading end -->
+        <div class="row">
+          <div class="skill-text">
+            <!-- single-skill start -->
+            <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="25" data-linecap="round" data-width="175"
+                    data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Python: PYPL 언어 랭킹 1위 <a href="http://pypl.github.io/PYPL.html" target="_blank">#</a></h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="92" data-linecap="round" data-width="175"
+                    data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Django: Python 기반 프레임워크 랭킹 1위 <a href="https://hotframeworks.com/languages/python"
+                      target="_blank">#</a></h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+            <!-- single-skill start -->
+            <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+              <div class="single-skill">
+                <div class="progress-circular">
+                  <input type="text" class="knob" value="0" data-rel="70" data-linecap="round" data-width="175"
+                    data-bgcolor="#fff" data-fgcolor="#3EC1D5" data-thickness=".20" data-readonly="true" disabled>
+                  <h3 class="progress-h4">Git: 세계에서 가장 많이 쓰이는 VCS <a href="https://rhodecode.com/insights/version-control-systems-2016"
+                      target="_blank">#</a></h3>
+                </div>
+              </div>
+            </div>
+            <!-- single-skill end -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- our-skill-area end -->
+
+  <!-- Faq area start -->
+  <div id="faq" class="faq-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>자주 하는 질문들</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="faq-details">
+            <div class="panel-group" id="accordion">
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                    <a data-toggle="collapse" class="active" data-parent="#accordion" href="#check1">
+                      <span class="acc-icons"></span> 지원 과정에 대해 알려주세요!
+                    </a>
+                  </h4>
+                </div>
+                <div id="check1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    <p>
+                      Redug Lefes dolor sit amet, consectetur adipisicing elit. Aspernatur, tempore, commodi quas
+                      mollitia dolore magnam quidem repellat, culpa voluptates laboriosam maiores alias accusamus
+                      recusandae vero
+                    </p>
                   </div>
                 </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#check2">
+                      <span class="acc-icons"></span> 개인 노트북이 필요한가요?
+                    </a>
+                  </h4>
+                </div>
+                <div id="check2" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      Redug Lefes dolor sit amet, consectetur adipisicing elit. Aspernatur, tempore, commodi quas
+                      mollitia dolore magnam quidem repellat, culpa voluptates laboriosam maiores alias accusamus
+                      recusandae vero aperiam sint nulla beatae eos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#check3">
+                      <span class="acc-icons"></span> 프로그래밍을 하나도 못해도 지원할 수 있나요?
+                    </a>
+                  </h4>
+                </div>
+                <div id="check3" class="panel-collapse collapse ">
+                  <div class="panel-body">
+                    <p>
+                      Redug Lefes dolor sit amet, consectetur adipisicing elit. Aspernatur, tempore, commodi quas
+                      mollitia dolore magnam quidem repellat, culpa voluptates laboriosam maiores alias accusamus
+                      recusandae vero aperiam sint nulla beatae eos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#check4">
+                      <span class="acc-icons"></span> 오프라인 강의는 어디에서 하나요?
+                    </a>
+                  </h4>
+                </div>
+                <div id="check4" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      Redug Lefes dolor sit amet, consectetur adipisicing elit. Aspernatur, tempore, commodi quas
+                      mollitia dolore magnam quidem repellat, culpa voluptates laboriosam maiores alias accusamus
+                      recusandae vero aperiam sint nulla beatae eos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#check5">
+                      <span class="acc-icons"></span> 방학중에도 활동하나요?
+                    </a>
+                  </h4>
+                </div>
+                <div id="check5" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      Redug Lefes dolor sit amet, consectetur adipisicing elit. Aspernatur, tempore, commodi quas
+                      mollitia dolore magnam quidem repellat, culpa voluptates laboriosam maiores alias accusamus
+                      recusandae vero aperiam sint nulla beatae eos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+              <!-- Panel Default -->
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="check-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#check6">
+                      <span class="acc-icons"></span> 대내외 활동을 하고있어서 시간이 많이없는데 지원가능한가요?
+                    </a>
+                  </h4>
+                </div>
+                <div id="check6" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <p>
+                      Redug Lefes dolor sit amet, consectetur adipisicing elit. Aspernatur, tempore, commodi quas
+                      mollitia dolore magnam quidem repellat, culpa voluptates laboriosam maiores alias accusamus
+                      recusandae vero aperiam sint nulla beatae eos.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <!-- End Panel Default -->
+            </div>
+          </div>
         </div>
-    </body>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+          <div class="tab-menu">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+              <li class="active">
+                <a href="#p-view-1" role="tab" data-toggle="tab">운영회칙</a>
+              </li>
+              <li>
+                <a href="#p-view-2" role="tab" data-toggle="tab">대략적인 일정</a>
+              </li>
+              <li>
+                <a href="#p-view-3" role="tab" data-toggle="tab">운영 관련 소식</a>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-content">
+            <div class="tab-pane active" id="p-view-1">
+              <div class="tab-inner">
+                <div class="event-content head-team">
+                  <h4>운영회칙</h4>
+                  <p>
+                    멋쟁이사자처럼 at 한국교통대학교 <a href="https://github.com/likelionknut/likelion-knut/wiki/멋쟁이사자처럼-at-한국교통대학교-회칙"
+                      target="_blank">운영회칙</a>입니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="p-view-2">
+              <div class="tab-inner">
+                <div class="event-content head-team">
+                  <h4>대략적인 일정</h4>
+                  <p>
+                    voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto
+                    ducimus, doloribus fuga itaque omnis.
+                  </p>
+                  <p>
+                    Redug Lares dolor sit amet, consectetur adipisicing elit. Animi vero excepturi magnam ducimus
+                    adipisci voluptas, praesentium maxime necessitatibus in dolor dolores unde ab, libero quo. Aut.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="p-view-3">
+              <div class="tab-inner">
+                <div class="event-content head-team">
+                  <h4>운영 관련 소식</h4>
+                  <p>
+                    voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto
+                    ducimus, doloribus fuga itaque omnis placeat.
+                  </p>
+                  <p>
+                    voluptas, praesentium maxime cum fugiat,magnam ducimus adipisci voluptas, praesentium architecto
+                    ducimus, doloribus fuga itaque omnis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end Row -->
+    </div>
+  </div>
+  <!-- End Faq Area -->
+
+  <!-- Start Wellcome Area -->
+  <div class="wellcome-area">
+    <div class="well-bg">
+      <div class="test-overly"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="wellcome-text">
+              <div class="well-text text-center">
+                <h2>더 궁금하신 것들이 있나요?</h2>
+                <p>
+                  한국교통대학교 운영진 메일로 문의해주세요!
+                </p>
+                <div class="subs-feilds">
+                  <div class="suscribe-input">
+                    <input type="email" class="email form-control width-80" id="sus_email" placeholder="likelionknut@gmail.com">
+                    <a href="mailto:likelionknut@gmail.com"><button id="sus_submit" class="add-btn width-20">문의하기</button></a>
+                    <div id="msg_Submit" class="h3 text-center hidden"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Wellcome Area -->
+
+  <!-- Start team Area -->
+  <div id="team" class="our-team-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>한국교통대학교 운영진</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="team-top">
+          <div class="col-xs-2">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a>
+                  <img src="img/team/1.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>명평윤</h4>
+                <p>팀장</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-xs-2 col-half-offset">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a>
+                  <img src="img/team/2.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>조경록</h4>
+                <p>부회장</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-xs-2 col-half-offset">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a>
+                  <img src="img/team/3.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>박주완</h4>
+                <p>홍보팀장</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-xs-2 col-half-offset">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a>
+                  <img src="img/team/4.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>박상돈</h4>
+                <p>교육팀장</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+          <div class="col-xs-2 col-half-offset">
+            <div class="single-team-member">
+              <div class="team-img">
+                <a>
+                  <img src="img/team/4.jpg" alt="">
+                </a>
+                <div class="team-social-icon text-center">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/cr3ux53c">
+                        <i class="fa fa-github-square"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="team-content text-center">
+                <h4>임현석</h4>
+                <p>말단노동자</p>
+              </div>
+            </div>
+          </div>
+          <!-- End column -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Team Area -->
+
+  <!-- Start reviews Area -->
+  <div class="reviews-area hidden-xs">
+    <div class="work-us">
+      <div class="work-left-text text-center">
+        <img src="img/about/http-statuscodes-bedeutung-c.jpg" alt="">
+      </div>
+      <div class="work-right-text text-center">
+        <h2>우리 함께 서비스를 만들어봐요~</h2>
+        <h5>디자인, 프론트엔드, 백엔드, 서버, 보안 과정을 함께 배워갈<br>
+          Full-Stack 개발 팀을 모집합니다!</h5>
+        <a href="#botttom-banner" class="ready-btn">수강 신청</a>
+      </div>
+    </div>
+  </div>
+  <!-- End reviews Area -->
+
+  <!-- Start portfolio Area -->
+  <div id="portfolio" class="portfolio-area area-padding fix">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>포트폴리오</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <!-- Start Portfolio -page -->
+        <div class="awesome-project-1 fix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="awesome-menu ">
+              <ul class="project-menu">
+                <li>
+                  <a href="#" class="active" data-filter="*">All</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".django">Django</a>
+                </li>
+                <li>
+                  <a href="#" data-filter=".design">Design</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="awesome-project-content">
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 django">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/1.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <!-- <a class="venobox" data-gall="myGallery" href="img/portfolio/2.jpg">
+                      <h4>Blue Sea</h4>
+                      <span>Photosho</span>
+                    </a> -->
+                    <a href="https://likelion.loopback.kr/word_counter" target="_blank">
+                      <h4>Word Counter</h4>
+                      <span>제출한 문자열을 단어 단위로 분석합니다.</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 django">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/2.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a href="https://likelion.loopback.kr/blog" target="_blank">
+                      <h4>Blog</h4>
+                      <span>SQLite 데이터베이스 기반 블로그입니다.</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+          <!-- single-awesome-project start -->
+          <div class="col-md-4 col-sm-4 col-xs-12 design">
+            <div class="single-awesome-project">
+              <div class="awesome-img">
+                <a href="#"><img src="img/portfolio/bootstrap-social.jpg" alt="" /></a>
+                <div class="add-actions text-center">
+                  <div class="project-dec">
+                    <a href="http://knut.likelion.org">
+                      <h4>LIKELIONKNUT 홈페이지</h4>
+                      <span>Github 페이지로 호스팅하는 Bootstrap 기반 정적 웹사이트입니다.</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- single-awesome-project end -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- awesome-portfolio end -->
+  <!-- start pricing area -->
+  <!-- <div id="pricing" class="pricing-area area-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="section-headline text-center">
+            <h2>Pricing Table</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list">
+            <h3>basic <br /> <span>$80 / month</span></h3>
+            <ol>
+              <li class="check">Online system</li>
+              <li class="check cross">Full access</li>
+              <li class="check">Free apps</li>
+              <li class="check">Multiple slider</li>
+              <li class="check cross">Free domin</li>
+              <li class="check cross">Support unlimited</li>
+              <li class="check">Payment online</li>
+              <li class="check cross">Cash back</li>
+            </ol>
+            <button>sign up now</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list active">
+            <span class="saleon">top sale</span>
+            <h3>standard <br /> <span>$110 / month</span></h3>
+            <ol>
+              <li class="check">Online system</li>
+              <li class="check">Full access</li>
+              <li class="check">Free apps</li>
+              <li class="check">Multiple slider</li>
+              <li class="check cross">Free domin</li>
+              <li class="check">Support unlimited</li>
+              <li class="check">Payment online</li>
+              <li class="check cross">Cash back</li>
+            </ol>
+            <button>sign up now</button>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4 col-xs-12">
+          <div class="pri_table_list">
+            <h3>premium <br /> <span>$150 / month</span></h3>
+            <ol>
+              <li class="check">Online system</li>
+              <li class="check">Full access</li>
+              <li class="check">Free apps</li>
+              <li class="check">Multiple slider</li>
+              <li class="check">Free domin</li>
+              <li class="check">Support unlimited</li>
+              <li class="check">Payment online</li>
+              <li class="check">Cash back</li>
+            </ol>
+            <button>sign up now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <!-- End pricing table area -->
+  <!-- Start Testimonials -->
+  <div class="testimonials-area">
+    <div class="testi-inner area-padding">
+      <div class="testi-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <!-- Start testimonials Start -->
+            <div class="testimonial-content text-center">
+              <a class="quate"><i class="fa fa-quote-right"></i></a>
+              <!-- start testimonial carousel -->
+              <div class="testimonial-carousel">
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      실패는 옵션이다.<br> 실패하지 않는다면, 당신은 충분한 혁신을 이룰 수 없다.
+                    </p>
+                    <h6>- 앨런 머스크 (SpaceX / 테슬라 창업자)</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      한두 해 빠르고 늦는 것은 그리 중요하지 않다.<br> 중요한 것은 자기가 하고 싶은 일을 하는 것이다.
+                    </p>
+                    <h6>- 홍익대학교 최용주 교수</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      HTML은 프로그래밍 언어가 아닙니다.
+                    </p>
+                    <h6>- Mozilla Developer Network</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      정보 기술의 영역은 무한히 큽니다. 모두가 각자 알고 있는 부분이 모여서 전체가 되는 것입니다. 따라서 정보 기술을 배우는 우리들도 무한히 넓은 마음을 가져야 됩니다. 완주에
+                      집착하지 않고, 처음에 배우는 것이 제일 중요한 것이다라는 것을 상기하면서 재미있는 부분까지만 공부하시길 바래요. 추상적으로 느껴지고 지루해 지기 시작하면 그것은 아마도
+                      우리의 뇌가 의식에게 보내주는 귀한 신호라고 생각합니다. 즉, 더 이상 공부하지 말고 지금까지 배운 것을 써 먹어보라는 신호가 아닐까요?
+                    </p>
+                    <h6>- egoing (생활코딩 운영자)</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+                <div class="single-testi">
+                  <div class="testi-text">
+                    <p>
+                      공부하고 있는 이 시간이 언제 올지도 모르는<br>
+                      미래의 어떤 행복을 위해서 희생하는 시간이 아니라 이 순간 자체가<br>
+                      더 없이 즐거운 시간이 되었으면 좋겠습니다.
+                    </p>
+                    <h6>- egoing (생활코딩 운영자)</h6>
+                  </div>
+                </div>
+                <!-- End single item -->
+              </div>
+            </div>
+            <!-- End testimonials end -->
+          </div>
+          <!-- End Right Feature -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Testimonials -->
+  <!-- Start Blog Area -->
+  <div id="news" class="blog-area">
+    <div class="blog-inner area-padding">
+      <div class="blog-overly"></div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="section-headline text-center">
+              <h2>새로운 소식</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Start Left Blog -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="single-blog">
+              <div class="single-blog-img">
+                <a href="./blog/001-20190118-first-greeting.html">
+                  <img src="img/blog/HelloWorld.png" alt="">
+                </a>
+              </div>
+              <div class="blog-meta">
+                <span class="date-type">
+                  <i class="fa fa-calendar"></i>2019년 1월 18일
+                </span>
+              </div>
+              <div class="blog-text">
+                <h4>
+                  <a href="./blog/001-20190118-first-greeting.html">안녕하세요</a>
+                </h4>
+                <p>
+                  멋쟁이사자처럼 7기 한국교통대학교 운영진입니다.
+                </p>
+              </div>
+              <span>
+                <a href="./blog/001-20190118-first-greeting.html" class="ready-btn">Read more</a>
+              </span>
+            </div>
+          </div>
+          <!-- End Left Blog-->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Blog -->
+  <!-- Start Suscrive Area -->
+  <div id="botttom-banner" class="suscribe-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs=12">
+          <div class="suscribe-text text-center">
+            <h3>멋쟁이 사자처럼 at 한국교통대학교의 첫 기수가 되세요!</h3>
+            <!-- <a class="sus-btn" href="https://apply.likelion.org"> 수강 신청</a> -->
+            <a type="button" class="ready-btn" data-toggle="modal" data-target="#modal-0"> 수강 신청</a>
+            <!-- Modal -->
+            <div class="modal fade" id="modal-0" role="dialog">
+              <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">수강 신청</h4>
+                  </div>
+                  <div class="modal-body">
+                    <p>수강생 모집은 2월 말부터 3월 초 사이에 진행될 예정입니다.</p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Modal -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Suscrive Area -->
+
+  <!-- 라이브리 시티 설치 코드 -->
+  <div id="lv-container" data-id="city" data-uid="MTAyMC80MjQ0My8xODk5MA==">
+    <script type="text/javascript">
+      (function (d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+
+        if (typeof LivereTower === 'function') { return; }
+
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+    <noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+  </div>
+  <!-- 시티 설치 코드 끝 -->
+
+  <!-- Start Footer bottom Area -->
+  <footer id="contact">
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <div class="footer-logo">
+                  <h2>KNUT <span>X</span> LIKELION</h2>
+                </div>
+
+                <p>"멋쟁이 사자처럼 at 한국교통대학교"는 비전공자를 대상으로 프로그래밍을 가르치는 대학 연합 교육 단체 "멋쟁이 사자처럼"의 한국교통대학교 운영진입니다.</p>
+                <div class="footer-icons">
+                  <ul>
+                    <li>
+                      <a href="https://facebook.com/likelionKNUT" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <!-- <li>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-google"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </li> -->
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>information</h4>
+                <p>
+                  문의 및 건의사항은 메일로 보내주십시오.
+                </p>
+                <div class="footer-contacts">
+                  <p><span>Email: </span><a href="mailto:likelionknut@gmail.com">likelionknut@gmail.com</a></p>
+                  <p><span>Working Hours: </span>09:00 - 18:00</p>
+                  <p><span>Location: </span>충청북도 충주시 대학로 50</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end single footer -->
+          <div class="col-md-4 col-sm-4 col-xs-12">
+            <div class="footer-content">
+              <div class="footer-head">
+                <h4>Instagram</h4>
+                <div class="flicker-img">
+                  <a><img src="img/portfolio/1.jpg" alt=""></a>
+                  <a><img src="img/portfolio/2.jpg" alt=""></a>
+                  <a><img src="img/portfolio/3.jpg" alt=""></a>
+                  <a><img src="img/portfolio/4.jpg" alt=""></a>
+                  <a><img src="img/portfolio/5.jpg" alt=""></a>
+                  <a><img src="img/portfolio/6.jpg" alt=""></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-area-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="copyright text-center">
+              <p>
+                Copyright &copy; 2019 <strong>멋쟁이 사자처럼 at 한국교통대학교 운영진</strong>, All rights reserved.
+              </p>
+            </div>
+            <div class="credits">
+              <!--
+                All the links in the footer should remain intact.
+                You can delete the links only if you purchased the pro version.
+                Licensing information: https://bootstrapmade.com/license/
+                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=eBusiness
+              -->
+              Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/venobox/venobox.min.js"></script>
+  <script src="lib/knob/jquery.knob.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/parallax/parallax.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+  <script src="lib/appear/jquery.appear.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
