@@ -30,6 +30,7 @@
   18.Blog CSS
   17.Blog Details CSS
   20.writeAndErase CSS   --> 글자 썼다가 지웠다가 하는 css
+  21. 부트스트랩 5등분
 -----------------------------------------------------------------------------------*/
 
 /*----------------------------------------*/
@@ -2357,6 +2358,39 @@ span.email-notes {
 	color: white !important;
 	font-size: 40px !important;
 }
+
+/*--------------------------------
+  21. 부트스트랩 5등분
+  https://stackoverrun.com/ko/q/12627677
+--------------------------------*/
+
+.tile-container { 
+  position: relative; 
+  border: solid #FFF 2px;
+  margin: 5px 0px; 
+  width:100%; 
+  font-size:0; 
+} 
+.tile { 
+  font-size:14px;
+  width: 20%;
+  min-height:22px; 
+  border: 5px #FFF solid; 
+  display: inline-block; 
+}
+/* .tile-container { 
+  position: relative; 
+  border: solid #FFF 2px; 
+  margin: 5px 0px; 
+  width:100%; 
+} 
+
+.tile { 
+  width: 20%; 
+  min-height:22px; 
+  border: 1px #FFF solid; 
+  display: inline-block; 
+} */
 
 /*----------------------------------------
  .End CSS
